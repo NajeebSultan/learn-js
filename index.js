@@ -11,3 +11,10 @@ let students = 50;
 students++;
 students--;
 console.log(students);
+
+
+
+
+let result;
+result = 4 + 6 % 2 *4;
+console.log(result);
