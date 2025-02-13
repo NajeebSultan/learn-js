@@ -18,3 +18,15 @@ console.log(students);
 let result;
 result = 4 + 6 % 2 *4;
 console.log(result);
+
+
+let username;
+//username = window.prompt(`Whats your name?`)
+//console.log(username);
+
+document.getElementById("mysubmit").onclick = function(){
+  username = document.getElementById("mytext").value;
+  document.getElementById("myh1").textContent = `Hello ${username}`
+}
+
+
