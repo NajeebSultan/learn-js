@@ -1,8 +1,8 @@
-let age =25;
+//let age =25;
 let price = 10.99;
 let gpa = 2.1;
 
-console.log(`You are ${age} years old`);
+//console.log(`You are ${age} years old`);
 console.log(`The price is  ${price}`);
 console.log(`Your gpa is: ${gpa}`);
 
@@ -29,4 +29,10 @@ document.getElementById("mysubmit").onclick = function(){
   document.getElementById("myh1").textContent = `Hello ${username}`
 }
 
+
+
+var age = window.prompt('How old are you');
+age=Number(age)+1;
+console.log(age);
+    
 
