@@ -153,3 +153,14 @@ let userName = "Najeeb"
 console.log(userName.charAt(1));
 console.log(userName.length); 
 // padstart , padend , include , replace all , endswith , startswith....
+
+
+// string slicing
+
+const fullName = "Najeeb Sultan";
+let firstName = fullName.slice(0,2);
+let lastName = fullName.slice(4 ,8);
+console.log(firstName);
+console.log(lastName);
+
+
