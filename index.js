@@ -179,3 +179,9 @@ extraChars = extraChars.toLowerCase();
 personname = letter+ extraChars;
 
 console.log(personname);
+
+//--- METHOD CHANING-----
+
+personname= personname.trim().charAt(0).toUpperCase()+ personname.trim().slice(1).toLowerCase();
+
+console.log(personname);
