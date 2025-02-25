@@ -80,8 +80,11 @@ console.log(min);
 
 
 
-//Random number 
+//Random number generator
 
-let randomNum = Math.random();
+const n = 50;
+const m = 100;
+
+let randomNum = Math.floor(Math.random()* (m - n)) + n;
 
 console.log(randomNum);
