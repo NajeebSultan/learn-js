@@ -77,3 +77,11 @@ let min = Math.min(x , y , z);
 
 console.log(max);
 console.log(min);
+
+
+
+//Random number 
+
+let randomNum = Math.random();
+
+console.log(randomNum);
