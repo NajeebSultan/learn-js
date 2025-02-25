@@ -185,3 +185,21 @@ console.log(personname);
 personname= personname.trim().charAt(0).toUpperCase()+ personname.trim().slice(1).toLowerCase();
 
 console.log(personname);
+
+//logical operators
+
+const temp = 100;
+if(temp > 0 && temp <=30){
+  console.log("The weather is GOOD");
+}
+else{
+  console.log("The weather is BAD")
+}
+
+const issunny =false;
+if(!issunny){
+  console.log("The weather is cloudy");
+}
+else{
+  console.log("The weather is sunny");
+}
