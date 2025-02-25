@@ -158,8 +158,11 @@ console.log(userName.length);
 // string slicing
 
 const fullName = "Najeeb Sultan";
-let firstName = fullName.slice(0,2);
-let lastName = fullName.slice(4 ,8);
+//let firstName = fullName.slice(0,2);
+//let lastName = fullName.slice(4 ,8);
+
+let firstName = fullName.slice(0, fullName.indexOf(" "));
+let lastName= fullName.slice(fullName.indexOf(" ")+1);
 console.log(firstName);
 console.log(lastName);
 
