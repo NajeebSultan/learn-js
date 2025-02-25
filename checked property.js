@@ -16,4 +16,16 @@ mySubmit.onclick = function(){
   else{
    subResult.textContent = 'You are NOT subscribed!'; 
   }
+if(visaBtn.checked){
+  paymentResult.textContent = 'You are paying with visa'; 
+}
+else if(masterCardBtn.checked){
+  paymentResult.textContent = 'You are paying with mastercard'; 
+}
+else if(payPalBtn.checked){
+  paymentResult.textContent = 'You are paying with paypal'; 
+}
+else{
+  paymentResult.textContent = 'You must select a payment type'; 
+}
 }
