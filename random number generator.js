@@ -6,6 +6,6 @@ const max = 6;
 let randomNum;
 
 mybutton.onclick = function(){
-   randomNum = Math.floor(Math.random * max) + min;
+   randomNum = Math.floor(Math.random() * max) + min;
    myLabel.textContent = randomNum;
 }
