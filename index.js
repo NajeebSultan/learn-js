@@ -145,3 +145,11 @@ switch(day){
   default:
   console.log("enter a valid input"); 
 }
+
+
+// string method
+
+let userName = "Najeeb"
+console.log(userName.charAt(1));
+console.log(userName.length); 
+// padstart , padend , include , replace all , endswith , startswith....
