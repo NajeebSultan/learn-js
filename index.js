@@ -166,4 +166,16 @@ let lastName= fullName.slice(fullName.indexOf(" ")+1);
 console.log(firstName);
 console.log(lastName);
 
+//---- No METHOD CHAINING ----
 
+let personname= window.prompt("Enter your username: ");
+ 
+personname = personname.trim();
+let letter = personname.charAt(0);
+letter = letter.toUpperCase();
+
+let extraChars = personname.slice(1);
+extraChars = extraChars.toLowerCase();
+personname = letter+ extraChars;
+
+console.log(personname);
