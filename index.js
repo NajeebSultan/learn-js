@@ -107,3 +107,11 @@ else{
 let d = 23;
 let message = d >=18 ? "You are an adult" : "You are a minor";
 console.log(message);
+
+let time =16;
+let greeting = time <12  ? "Good Morning" : "Good Afternoon";
+console.log(greeting);
+
+let isstudent = true;
+let alert = isstudent ? "You are student" : "You are NOT a student"
+console.log(alert);
