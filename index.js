@@ -101,3 +101,9 @@ if(age>= 18){
 else{
   console.log("You must be 18+ to enter this site")
 }
+
+// ternary operator
+
+let d = 23;
+let message = d >=18 ? "You are an adult" : "You are a minor";
+console.log(message);
