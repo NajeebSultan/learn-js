@@ -258,3 +258,16 @@ for( let j= 1 ; j<= 20 ;j++){
     console.log(j);
   }
 }
+
+
+
+// Funtion
+
+function happyBirthday(){
+  console.log("Happy Birthday to you!");
+  console.log("Happy Birthday to you!");
+  console.log("Happy Birthday to you!");
+  console.log("Happy Birthday to you!");
+
+}
+happyBirthday();
