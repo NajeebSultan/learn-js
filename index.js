@@ -246,6 +246,6 @@ while(!loggedIn){
 
 // For loop
 
-for( let i = 0 ; i<=2 ; i++){
-  console.log("Hello");
+for( let i = 0 ; i<=10 ; i++){
+  console.log(i);
 }
