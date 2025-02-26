@@ -243,3 +243,9 @@ while(!loggedIn){
   console.log("Invalid credentials! Please try again.");
  }
 }
+
+// For loop
+
+for( let i = 0 ; i<=2 ; i++){
+  console.log("Hello");
+}
