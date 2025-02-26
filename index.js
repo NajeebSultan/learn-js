@@ -203,3 +203,14 @@ if(!issunny){
 else{
   console.log("The weather is sunny");
 }
+
+
+// while loop 
+
+let u = "Najeeb Sultan";
+
+while(u=== ""){
+  console.log('You did not enter your name');
+
+}
+console.log(`Hello ${u}`);
