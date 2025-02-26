@@ -159,23 +159,23 @@ console.log(userName.length);
 
 const fullName = "Najeeb Sultan";
 //let firstName = fullName.slice(0,2);
-//let lastName = fullName.slice(4 ,8);
+let lastName = fullName.slice(4 ,8);
 
-let firstName = fullName.slice(0, fullName.indexOf(" "));
-let lastName= fullName.slice(fullName.indexOf(" ")+1);
+//let firstName = fullName.slice(0, fullName.indexOf(" "));
+//let lastName= fullName.slice(fullName.indexOf(" ")+1);
 console.log(firstName);
 console.log(lastName);
 
 //---- No METHOD CHAINING ----
 
-let personname= window.prompt("Enter your username: ");
+//let personname= window.prompt("Enter your username: ");
  
 personname = personname.trim();
 let letter = personname.charAt(0);
 letter = letter.toUpperCase();
 
 let extraChars = personname.slice(1);
-extraChars = extraChars.toLowerCase();
+extraChars = extraChars.toLowerCase;
 personname = letter+ extraChars;
 
 console.log(personname);
@@ -263,11 +263,11 @@ for( let j= 1 ; j<= 20 ;j++){
 
 // Funtion
 
-function happyBirthday(){
+function happyBirthday(username, age){
   console.log("Happy Birthday to you!");
   console.log("Happy Birthday to you!");
   console.log("Happy Birthday to you!");
   console.log("Happy Birthday to you!");
 
 }
-happyBirthday();
+happyBirthday( "Najeeb", 18);
