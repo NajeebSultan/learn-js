@@ -13,7 +13,9 @@ function convert(){
   }
   else if(toCelsius.checked){
     result.textContent = "You selected to celsius";
-    
+    temp = Number(textBox.value);
+    temp = (temp - 32) * (5/9) ;
+    result.textContent = temp.toFixed(1)+ "°C"
   }
   else{
     result.textContent = "Select a unit";
