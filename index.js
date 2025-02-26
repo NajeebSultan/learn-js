@@ -214,3 +214,15 @@ u = window.prompt(`Enter your name`);
 
 }
 console.log(`Hello ${u}`);
+
+
+// Do while loop
+
+let o = "";
+
+do{
+  o = window.prompt(`Enter your name`);
+}
+while(o=== "")
+console.log(`Hello ${u}`);
+
