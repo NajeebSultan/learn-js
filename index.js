@@ -207,10 +207,10 @@ else{
 
 // while loop 
 
-let u = "Najeeb Sultan";
+let u = "";
 
 while(u=== ""){
-  console.log('You did not enter your name');
+u = window.prompt(`Enter your name`);
 
 }
 console.log(`Hello ${u}`);
