@@ -226,3 +226,20 @@ do{
 while(o=== "")
 console.log(`Hello ${u}`);
 
+let loggedIn = false;
+let v;
+let p;
+
+while(!loggedIn){
+  v= window.prompt(`Enter your name`);
+  p = window.prompt(`Enter your password`);
+ 
+ if(v === "myusername" && p === "mypassword"){
+  loggedIn = true;
+  console.log("You are logged in!");
+
+ }
+ else{
+  console.log("Invalid credentials! Please try again.");
+ }
+}
