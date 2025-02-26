@@ -261,13 +261,4 @@ for( let j= 1 ; j<= 20 ;j++){
 
 
 
-// Funtion
 
-function happyBirthday(username, age){
-  console.log("Happy Birthday to you!");
-  console.log("Happy Birthday to you!");
-  console.log("Happy Birthday to you!");
-  console.log("Happy Birthday to you!");
-
-}
-happyBirthday( "Najeeb", 18);
