@@ -261,4 +261,17 @@ for( let j= 1 ; j<= 20 ;j++){
 
 
 
+//variable scoop
 
+function2();
+
+function function1(){
+  let r = 1;
+  console.log(r);
+}
+
+function function2(){
+  let r = 2;
+  console.log(r);
+
+}
