@@ -249,3 +249,12 @@ while(!loggedIn){
 for( let i = 0 ; i<=10 ; i++){
   console.log(i);
 }
+
+for( let j= 1 ; j<= 20 ;j++){
+  if(j == 13){
+    break;
+  }
+  else{
+    console.log(j);
+  }
+}
