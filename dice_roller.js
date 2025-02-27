@@ -13,5 +13,5 @@ for(let i = 0; i<numOfDice ; i++){
 
 }
 diceResult.textContent = `dice: ${values.join(', ')}`;
-diceImages.innerHTML = images.join('');
+diceImage.innerHTML = images.join('');
 }
