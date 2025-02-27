@@ -282,3 +282,8 @@ function function2(){
 let fruits = ["apple","orange","banana"];
 console.log(fruits[0]);
 console.log(fruits[1]);
+
+let fruit = ["apple","orange","banana"];
+for(let i =0 ; i< fruit.length ; i++ ){
+  console.log(fruit[i]);
+}
