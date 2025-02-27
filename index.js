@@ -283,14 +283,21 @@ let fruits = ["apple","orange","banana"];
 console.log(fruits[0]);
 console.log(fruits[1]);
 
+let fruit = ["apple","orange","banana"];
+for(let i =0 ; i< fruit.length ; i++ ){
+  console.log(fruit[i]);
+}
+
+
 fruit.sort().reverse();
 for(let fruit of fruits){
   console.log(fruit);
 }
 
 
-let fruit = ["apple","orange","banana"];
-for(let i =0 ; i< fruit.length ; i++ ){
-  console.log(fruit[i]);
-}
+// Spread operator
+
+let name = "Najeeb Sultan";
+let letters = [...name].join("-");
+console.log(letters);
 
