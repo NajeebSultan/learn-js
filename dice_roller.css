@@ -13,6 +13,7 @@ button{
   background-color: hsl(210 , 100% , 50%);
   color: white;
   font-weight: bold;
+  cursor: pointer;
 
 }
 button:hover{
