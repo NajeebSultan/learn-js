@@ -158,17 +158,17 @@ console.log(userName.length);
 // string slicing
 
 const fullName = "Najeeb Sultan";
-//let firstName = fullName.slice(0,2);
+let firstName = fullName.slice(0,2);
 let lastName = fullName.slice(4 ,8);
 
-//let firstName = fullName.slice(0, fullName.indexOf(" "));
-//let lastName= fullName.slice(fullName.indexOf(" ")+1);
+let FirstName = fullName.slice(0, fullName.indexOf(" "));
+let LastName= fullName.slice(fullName.indexOf(" ")+1);
 console.log(firstName);
 console.log(lastName);
 
 //---- No METHOD CHAINING ----
 
-//let personname= window.prompt("Enter your username: ");
+let personname= window.prompt("Enter your username: ");
  
 personname = personname.trim();
 let letter = personname.charAt(0);
@@ -275,3 +275,10 @@ function function2(){
   console.log(r);
 
 }
+
+
+//Array
+
+let fruits = ["apple","orange","banana"];
+console.log(fruits[0]);
+console.log(fruits[1]);
