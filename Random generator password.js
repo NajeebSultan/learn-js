@@ -1,4 +1,4 @@
-
+// RANDOM PASSWORD GENERATOR
 function generatePassword(length ,includeLowercase , includeUppercase , includeNumber ,includeSymbols ){
 
 const lowercaseChars = "abcdefghigklmnopqrstuvwxyz";
