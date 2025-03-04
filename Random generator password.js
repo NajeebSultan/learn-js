@@ -26,7 +26,7 @@ for(let i = 0 ; i<length ; i++){
   const randomIndex = Math.floor(Math.random() * allowedChars.length);
   password += allowedChars[randomIndex];
 }
-  return '';
+  return password;
 }
 
 
@@ -37,8 +37,8 @@ const includeUppercase = true ;
 const includeNumber = true ;
 const includeSymbols = true ;
 
- const password = generatePassword(PasswordLength ,includeLowercase , includeUppercase , includeNumber ,includeSymbols );
- console.log('Generated password: ${password}');
+ const password = generatePassword(passwordLength ,includeLowercase , includeUppercase , includeNumber ,includeSymbols );
+ console.log(`Generated password: ${password}`);
 
 
 
