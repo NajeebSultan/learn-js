@@ -14,8 +14,10 @@ allowedChars += includeUppercase ? uppercaseChars : "";
 allowedChars += includeNumber ? numberChars : "";
 allowedChars += includeSymbols ? symbolsChars : "";
 
+if(length <= 0){
+  return '(password length must be at least 1)';
 
-
+}
 
   return '';
 }
