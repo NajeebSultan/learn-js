@@ -9,6 +9,14 @@ const symbolsChars = "!@#$%^&*()_+-=";
 let allowedChars = "";
 let password = "";
 
+allowedChars += includeLowercase ? lowercaseChars : "";
+allowedChars += includeUppercase ? uppercaseChars : "";
+allowedChars += includeNumber ? numberChars : "";
+allowedChars += includeSymbols ? symbolsChars : "";
+
+
+
+
   return '';
 }
 
@@ -22,7 +30,7 @@ const includeSymbols = true ;
 
  const password = generatePassword(PasswordLength ,includeLowercase , includeUppercase , includeNumber ,includeSymbols );
  console.log('Generated password: ${password}');
-  
+
 
 
 
