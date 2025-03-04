@@ -18,7 +18,14 @@ if(length <= 0){
   return '(password length must be at least 1)';
 
 }
-
+if(allowedChars.length === 0){
+  return '(atleast 1 set of character needs to be selected)';
+ 
+}
+for(let i = 0 ; i<length ; i++){
+  const randomIndex = Math.floor(Math.random() * allowedChars.length);
+  password += allowedChars[randomIndex];
+}
   return '';
 }
 
