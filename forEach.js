@@ -3,7 +3,7 @@ numbers.forEach(cube);
 numbers.forEach(display);
 
 function double (element , index , array){
-  array[index] = element * 3;
+  array[index] = element * 2;
 
 }
 
@@ -22,6 +22,6 @@ function cube (element , index , array){
   
 }
 function display (element){
-  array[index] = element * 3;
+ console.log(element);
   
 }
