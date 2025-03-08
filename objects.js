@@ -42,4 +42,12 @@ const person3 ={
   sayHello: function(){console.log(`Hi! i am ${this.favfood}`)},
   eat: function(){ console.log(`${this.name} is eating ${this.favfood}`)},
 }
+const person4 ={
+  name: "sameed",
+  favfood: "pizza",
+  sayHello: function(){console.log(`Hi! i am ${this.favfood}`)},
+  eat: function(){ console.log(`${this.name} is eating ${this.favfood}`)},
+}
 person3.eat();
+person4.eat();
+
