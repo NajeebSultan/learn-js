@@ -44,3 +44,20 @@ function isOdd(element){
 }
 
 
+const ages = [16 ,17 ,18 ,19 ,20];
+const adults = ages.filter(isadult);
+const children = ages.filter(isChild);
+
+
+console.log(adults);
+console.log(children);
+
+function isadult(element){
+  return element >= 18;
+}
+
+function isChild(element){
+  return element < 18;
+}
+
+
