@@ -34,3 +34,12 @@ person2.sayHello();
 person2.eat();
 
 
+// this
+
+const person3 ={
+  name: "Najeeb",
+  favfood: "pizza",
+  sayHello: function(){console.log(`Hi! i am ${this.favfood}`)},
+  eat: function(){ console.log(`${this.name} is eating ${this.favfood}`)},
+}
+person3.eat();
