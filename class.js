@@ -14,4 +14,4 @@ const product1 = new Product("Shirt",19.99);
 const product2 = new Product("Pants",22.50);
 const product3 = new Product("Underwear",100.00);
 
-product3.displayProduct();
+product2.displayProduct();
