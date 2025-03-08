@@ -60,4 +60,16 @@ function isChild(element){
   return element < 18;
 }
 
+// .reduce
+
+const prices = [5 , 10 , 30 , 12 , 34];
+const total = prices.reduce(sum);
+
+console.log(`$${total.toFixed(2)}`);
+
+function sum (accumulator , element){
+  return accumulator + element;
+
+}
+
 
