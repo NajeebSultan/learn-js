@@ -27,4 +27,6 @@ const fish = new Fish();
 const hawk = new Hawk();
 
 console.log(rabbit.alive);
+rabbit.eat();
+rabbit.sleep();
 
