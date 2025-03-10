@@ -16,3 +16,15 @@ console.log(MathUtil.PI);
 console.log(MathUtil.getDiameter(10));
 console.log(MathUtil.getCircumference(10));
 console.log(MathUtil.getArea(10));
+
+
+class User{
+  static userCount = 0;
+
+  constructor(username){
+    this.username = username;
+    User.userCount++;
+  }
+}
+const user1 = new User("Najeeb");
+console.log(user1.username);
