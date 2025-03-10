@@ -1,3 +1,4 @@
+
 class MathUtil{
   static PI = 3.14159;
 
@@ -27,4 +28,9 @@ class User{
   }
 }
 const user1 = new User("Najeeb");
+const user2 = new User("sameed");
+const user3 = new User("Rajaab");
+
 console.log(user1.username);
+console.log(user2.username);
+console.log(user3.username);
