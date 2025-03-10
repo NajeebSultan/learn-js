@@ -16,6 +16,7 @@ class Rabbit extends Animals{
    } 
    run(){
     console.log(`The ${this.name} can run`);
+    super.move(this.runspeed);
   }
 }
 class Fish extends Animals{
@@ -25,6 +26,8 @@ class Fish extends Animals{
    } 
    swim(){
     console.log(`The ${this.name} can swim`);
+    super.move(this.swimspeed);
+
   }
 }
 class Hawk extends Animals{
@@ -34,6 +37,8 @@ class Hawk extends Animals{
    } 
    fly(){
     console.log(`The ${this.name} can fly`);
+    super.move(this.flyspeed);
+
   }
 }
 
@@ -43,6 +48,7 @@ const hawk = new Hawk("hawk" , 3 ,50);
 
 console.log(rabbit.name);
 rabbit.run();
+fish.swim();
 console.log(rabbit.age);
 console.log(rabbit.runspeed);
 console.log(fish.name);
