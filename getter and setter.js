@@ -22,15 +22,15 @@ class Rectangle {
     }
 
     get width(){
-      return this._width;
+      return this._width.toFixed(1);
     }
 
     get height(){
-      return this._height;
+      return this._height.toFixed(1);
     }
 
     get area(){
-      return this._width * this._height;
+      return this._width * this._height.toFixed(1);
     }
   }
 
