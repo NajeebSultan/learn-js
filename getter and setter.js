@@ -57,12 +57,15 @@ class Person{
         console.error("First name must be a non-empty string");
       }
   }
-  set firstName(newFirstName){
-    if(typeof newFirstName === "string" && newFirstName.lenght > 0){
-    this._firstName = newFirstName;
+  set lastName(newLastName){
+    if(typeof newFirstName === "string" && newLastName.lenght > 0){
+    this._lastName = newLastName;
     }
     else{
-      console.error("First name must be a non-empty string");
+      console.error("Last name must be a non-empty string");
+    }
+    set age(newAge){
+      if
     }
 }
   
