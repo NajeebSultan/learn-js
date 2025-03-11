@@ -49,6 +49,23 @@ class Person{
     this.lastName = lastName;
     this.age = age;
   }
+  set firstName(newFirstName){
+      if(typeof newFirstName === "string" && newFirstName.lenght > 0){
+      this._firstName = newFirstName;
+      }
+      else{
+        console.error("First name must be a non-empty string");
+      }
+  }
+  set firstName(newFirstName){
+    if(typeof newFirstName === "string" && newFirstName.lenght > 0){
+    this._firstName = newFirstName;
+    }
+    else{
+      console.error("First name must be a non-empty string");
+    }
+}
+  
 }
 const person = new Person(420 , 69 ,"pizza");
 console.log(person.firstName);
