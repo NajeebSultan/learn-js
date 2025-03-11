@@ -6,3 +6,5 @@ class Rectangle {
   }
 }
 const rectangle = new Rectangle(-1000000 , "pizza");
+console.log(rectangle.width);
+console.log(rectangle.height);
