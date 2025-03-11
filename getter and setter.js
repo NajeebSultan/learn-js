@@ -35,6 +35,9 @@ class Rectangle {
   }
 
 const rectangle = new Rectangle(3 ,4);
+
+rectangle.width = 5;
+rectangle.height = 6;
 console.log(rectangle.width);
 console.log(rectangle.height);
 console.log(rectangle.area);
