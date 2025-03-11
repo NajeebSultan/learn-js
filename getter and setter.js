@@ -82,11 +82,15 @@ class Person{
     get age() {
       return this._age;
     }
+    get fullName(){
+      return this._firstName + " " + this._lastName;
+    }
 }
   
 
 const person = new Person("Najeeb" ,"sultan" ,18);
 console.log(person.firstName);
 console.log(person.lastName);
+console.log(person.fullName);
 console.log(person.age);
 
