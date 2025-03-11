@@ -50,7 +50,7 @@ class Person{
     this.age = age;
   }
   set firstName(newFirstName){
-      if(typeof newFirstName === "string" && newFirstName.lenght > 0){
+      if(typeof newFirstName === "string" && newFirstName.length > 0){
       this._firstName = newFirstName;
       }
       else{
@@ -58,7 +58,7 @@ class Person{
       }
   }
   set lastName(newLastName){
-    if(typeof newFirstName === "string" && newLastName.lenght > 0){
+    if(typeof newLastName === "string" && newLastName.length > 0){
     this._lastName = newLastName;
     }
     else{
@@ -72,6 +72,15 @@ class Person{
       else{
         console.error("Age must be non neagtive number")
       }
+    }
+    get firstName(){
+      return this._firstName;
+    }
+    get lastName(){
+      return this._lastName;
+    }
+    get age() {
+      return this._age;
     }
 }
   
