@@ -64,13 +64,19 @@ class Person{
     else{
       console.error("Last name must be a non-empty string");
     }
+  }
     set age(newAge){
-      if
+      if(typeof newAge === "number" && newAge >=0){
+        this._age = newAge;
+      }
+      else{
+        console.error("Age must be non neagtive number")
+      }
     }
 }
   
-}
-const person = new Person(420 , 69 ,"pizza");
+
+const person = new Person("Najeeb" ,"sultan" ,18);
 console.log(person.firstName);
 console.log(person.lastName);
 console.log(person.age);
