@@ -6,7 +6,7 @@ class Rectangle {
   }
   set width(newWidth){
     if(newWidth > 0){
-      this.width = newWidth;
+      this._width = newWidth;
     }
     else{
       console.log("Width must be a positive number")
@@ -14,14 +14,28 @@ class Rectangle {
   }
     set height(newheight){
       if(newheight > 0){
-        this.height = newheight;
+        this._height = newheight;
       }
       else{
         console.log("Height must be a positive number")
       }
     }
+
+    get width(){
+      return this._width;
+    }
+
+    get height(){
+      return this._height;
+    }
+
+    get area(){
+      return this._width * this._height;
+    }
   }
 
-const rectangle = new Rectangle(-1000000 , "pizza");
+const rectangle = new Rectangle(3 ,4);
 console.log(rectangle.width);
 console.log(rectangle.height);
+console.log(rectangle.area);
+
