@@ -68,3 +68,4 @@ const person4 ={
   age: 40 ,
 
 }
+displayPerson(person3);
