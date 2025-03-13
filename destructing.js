@@ -15,3 +15,4 @@ console.log(colors);
 
 // Assign array elements to variables
 
+const color = ["red" ,"green", "blue","black" , "white"];
