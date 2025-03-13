@@ -4,4 +4,4 @@ const fruits = [{name: "apple" , color: "red" , calories: 45},
   {name: "coconut" , color: "white" , calories: 98},
   {name: "pineapple" , color: "yellow" , calories: 37}];
 
-  console.log(fruits[4].name);
+  console.log(fruits);
