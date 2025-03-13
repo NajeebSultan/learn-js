@@ -5,3 +5,4 @@ const fruits = [{name: "apple" , color: "red" , calories: 45},
   {name: "pineapple" , color: "yellow" , calories: 37}];
 
   console.log(fruits);
+  fruits.forEach(fruit => console.log(fruit.color));
