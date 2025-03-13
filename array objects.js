@@ -27,5 +27,7 @@ const fruits = [{name: "apple" , color: "red" , calories: 45},
   // reduce
 
   const maxFruit = fruits.reduce((max , fruit) => fruit.calories > max.calories ? fruit : max);
+  const minFruit = fruits.reduce((min, fruit) => fruit.calories < min.calories ? fruit : min);
 
   console.log(maxFruit);
+  console.log(minFruit);
