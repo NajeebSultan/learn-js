@@ -15,3 +15,14 @@ console.log(person.age);
 console.log(person.isStudent);
 console.log(person.hobbies[2]);
 console.log(person.address.city);
+
+
+
+
+class Address{
+  constructor(street , city , country){
+    this.street = street;
+    this.city = city;
+    this.country = country;
+  }
+}
