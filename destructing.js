@@ -46,3 +46,21 @@ console.log(lastName);
 console.log(age);
 console.log(job);
 
+// Destruction in function parameters
+
+
+const person3 = {
+  firstName: "Najeeb ",
+  lastName:"Sultan",
+  age: 30 ,
+  job: "Fry Cook" ,
+
+}
+
+const person4 ={
+
+  firstName: "Ali ",
+  lastName:"Ahmed",
+  age: 40 ,
+
+}
