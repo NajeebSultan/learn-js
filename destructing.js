@@ -16,3 +16,8 @@ console.log(colors);
 // Assign array elements to variables
 
 const color = ["red" ,"green", "blue","black" , "white"];
+const [firstColor , secondColor , thirdColor , ...extraColors] = color;
+console.log(firstColor);
+console.log(secondColor);
+console.log(thirdColor);
+console.log(extraColors);
