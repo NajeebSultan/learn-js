@@ -12,5 +12,5 @@ const people = [{name: "Najeeb", age: 18 , gpa: 3.81},
 
  people.sort((a , b) => a.age - b.age);
  people.sort((a ,b) => a.gpa -b.gpa);
+ people.sort((a ,b)=> a.name.localeCompare(b.name));
  console.log(people);
- 
