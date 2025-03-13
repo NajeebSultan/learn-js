@@ -21,3 +21,23 @@ console.log(firstColor);
 console.log(secondColor);
 console.log(thirdColor);
 console.log(extraColors);
+
+// Extract values from objects
+
+const person1 = {
+  firstName: "Najeeb ",
+  lastName:"Sultan",
+  age: 30 ,
+  job: "Fry Cook" ,
+
+}
+
+const person2 ={
+
+  firstName: "Ali ",
+  lastName:"Ahmed",
+  age: 40 ,
+
+}
+const {firstName ,lastName ,age , job } = person1;
+
