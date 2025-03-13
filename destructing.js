@@ -41,3 +41,5 @@ const person2 ={
 }
 const {firstName ,lastName ,age , job } = person1;
 
+console.log(firstName);
+
