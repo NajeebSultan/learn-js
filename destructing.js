@@ -48,13 +48,17 @@ console.log(job);
 
 // Destruction in function parameters
 
+function displayPerson({firstName , lastName , age ,job}){
+  console.log(`name: ${firstName} ${lastName}`);
+  console.log(`age: ${age}`);
+  console.log(`job: ${job}`);
+}
 
 const person3 = {
   firstName: "Najeeb ",
   lastName:"Sultan",
   age: 30 ,
   job: "Fry Cook" ,
-
 }
 
 const person4 ={
