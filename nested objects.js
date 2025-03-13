@@ -32,3 +32,16 @@ class Address{
     this.country = country;
   }
 }
+
+const person1 = new Person("najeeb" , 30 , "124 Coch st." ,
+  "Islamabad",
+  "pakistan");
+  const person2 = new Person("najeeb" , 30 , "124 Coch st." ,
+    "Islamabad",
+    "pakistan");
+    const person3 = new Person("najeeb" , 30 , "124 Coch st." ,
+      "Islamabad",
+      "pakistan");
+
+      console.log(person1.address);
+      console.log(person3.name);
