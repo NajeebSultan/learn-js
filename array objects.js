@@ -17,3 +17,9 @@ const fruits = [{name: "apple" , color: "red" , calories: 45},
   console.log(fruitColors);
   console.log(fruitcalories);
 
+  // filter
+  const yellowFruits = fruits.filter(fruit => fruit.color ==="yellow");
+  const lowCalFruits = fruits.filter(fruit => fruit.calories < 100 );
+
+  console.log(yellowFruits);
+  console.log(lowCalFruits);
