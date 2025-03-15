@@ -14,3 +14,10 @@ const people = [{name: "Najeeb", age: 18 , gpa: 3.81},
  people.sort((a ,b) => a.gpa -b.gpa);
  people.sort((a ,b)=> a.name.localeCompare(b.name));
  console.log(people);
+
+
+ // Shuffle an array
+
+ const cards = ['A' , 2 ,3 ,4 ,5 ,6, 7, 8, 9, 10 , 'J' , 'Q' , 'k'];
+cards.sort(() => Math.random() - 0.5);
+console.log(cards);
