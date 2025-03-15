@@ -47,4 +47,6 @@ counter.increment();
  }
 
  increaseScore(5);
+ decreaseScore(3);
  
+
