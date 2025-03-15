@@ -1,3 +1,3 @@
-const date = new Date(17000000000000);
+const date = new Date();
 
 console.log(date);
