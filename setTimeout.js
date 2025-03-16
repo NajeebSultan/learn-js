@@ -1,5 +1,1 @@
-function sayHello(){
-  window.alert("Hello");
-
-}
-setTimeout(sayHello ,3000)
+setTimeout(function(){window.alert("Hello")}, 3000);
