@@ -1,4 +1,9 @@
 body{
+  background-image: url(pexels-eberhardgross-1366919.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   margin: 0;
 }
 #clock-container{
