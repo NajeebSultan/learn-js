@@ -25,4 +25,11 @@ function reset(){
 
 function update(){
   
+  const currentTime  = Date.now();
+  elapsedTime = currentTime - startTime;
+
+  let hours = Math.floor(elapsedTime / (1000* 60 * 60));
+  let minutes = Math.floor(elapsedTime / (1000* 60 ) % 60);
+  let seconds = Math.floor(elapsedTime / (1000 % 60));
+  let milliseconds = Math.floor(elapsedTime % 1000 / 10);
 }
