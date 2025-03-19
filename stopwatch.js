@@ -7,7 +7,7 @@ let isRunning = false;
 
 function start(){
 
-  if(isRunning){
+  if(!isRunning){
     startTime = Date.now() - elapsedTime;
     timer = setInterval(update ,10);
     isRunning = true;
@@ -33,5 +33,10 @@ function update(){
   let seconds = Math.floor(elapsedTime / (1000 % 60));
   let milliseconds = Math.floor(elapsedTime % 1000 / 10);
 
-  display.textContent = `${hours}:${minutes}:${seconds}:${milliseconds}:`
+  hours = String(hours).padStart(2, "0");
+  minutes = String(minutes).padStart(2, "0");
+  seconds = String(seconds).padStart(2, "0");
+  milliseconds = String(milliseconds).padStart(2, "0");
+
+  display.textContent = `${hours}:${minutes}:${seconds}:${milliseconds}`;
 }
