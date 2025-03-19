@@ -17,14 +17,14 @@ function start(){
 
 function stop(){
   if(isRunning){
-    clearIntervel(timer);
+    clearInterval(timer);
     elapsedTime = Date.now() - startTime;
     isRunning = false;
   }
 }
 
 function reset(){
-  clearIntervel(timer);
+  clearInterval(timer);
   startTime = 0;
     elapsedTime = 0;
     isRunning = false;
