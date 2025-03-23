@@ -1,0 +1,8 @@
+
+  .box {
+    border: 2px solid black; /* Adds a black outline */
+    padding: 10px;
+    margin: 10px;
+    width: 100px; /* Adjust width */
+    text-align: center;
+  }
